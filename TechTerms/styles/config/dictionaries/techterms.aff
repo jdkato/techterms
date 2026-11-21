@@ -1,0 +1,10 @@
+SET UTF-8
+ICONV 1
+ICONV ’ '
+
+SFX S Y 2
+SFX S 0 s [^sxz]
+SFX S 0 es [sxz]
+
+SFX M Y 1
+SFX M 0 's .
